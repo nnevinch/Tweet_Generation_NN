@@ -2,7 +2,7 @@ import csv
 import sys 
   
 name = sys.argv[1]
-file_in = name + '_updatedheader.csv'
+file_in = name + '_10000.csv'
 file_out = name + '_picsremoved.csv'
 
 reader = csv.reader(open(file_in))
