@@ -1,8 +1,10 @@
 import csv
 import sys
 
-file_in = sys.argv[1] # name of initial data file
-file_out = sys.argv[2] # name of cleaned data file
+name = sys.argv[1]
+
+file_in = name+'_newheaders.csv' # name of initial data file
+file_out = name+'_standardized.csv' # name of cleaned data file
 
 reader = csv.reader(open(file_in))
 
